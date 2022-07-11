@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html{
+    --bg-color:#ffffff;
+    --text-color:black;
+    --primary-color:#365dc2;
+    --secundary-color:#0E2E7E;
+    --text-color2:#ffffff;
+    
+  }
+  body.dark{
+    --bg-color:black;
+    --text-color:white;
+    --text-color2:white;
+    --primary-color:rgb(143, 139, 139);
+    --secundary-color:black;
+    
+  }
+  .container{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  body{
+    background:var(--bg-color);
+    color: var(--text-color);
+  }
+  img{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 100%;
+    width: 150px;
+    right: 150px;
+    padding: 4px;
+  
+    transition: padding 400ms;
+  
+  }
+  
+  img:hover{
+    padding: 0px;
+  }
+  
+  
+  h1{
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.8;
+  
+  }
+  
+  p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  font-weight: 300;
+  color: var(--taxt-color);
+  
+  }
+  
+  a{
+  text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 48px 0 ;
+  }
+  
+  ul li a{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: var(--primary-color);
+    color:var(--text-color2);
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+    border-radius: 5px;
+  
+    transition: background 500ms;
+  }
+  
+  ul li a:hover{
+    background-color: var(--secundary-color);
+  }
+   footer{
+     font-size: 20px;
+     font-family: 'Raleway', sans-serif;
+    color: var(--taxt-color);
+     opacity: 0.7;
+  
+    
+   }
+  
+   footer a {
+     color: #053fd3;
+  
+   }
+   footer:hover{
+     opacity: 1;
+   }
+   button{
+     border-radius: 60%;
+     padding: 0px;
+     margin: 0px;
+     margin-bottom: 0px;
+   }
